@@ -160,6 +160,7 @@ let g:user_emmet_expandabbr_key='<C-j>'
 " airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts=1
+let g:airline_theme="bubblegum"
 
 " NeoComplCache
 let g:neocomplcache_enable_at_startup=1
