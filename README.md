@@ -142,6 +142,7 @@ YAML         | js-yaml       | `npm install -g js-yaml`
 * `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
 * `Ctrl` + `p` -> Toggle ctrlp
+* `Ctrl` + `b` -> Toggle ctrlp for buffers
 * `Alt` + `1~9` -> Switch between multiple buffers
 * `Ctrl` + `h/j/k/l` -> Moving between spilt windows
 * `:Ack` or `<leader>` + `a` -> Toggle Ack searching

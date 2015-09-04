@@ -194,6 +194,7 @@ let g:SuperTabRetainCompletionType=2
 " set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
 
 " ctrlp
+nmap <C-b> :CtrlPBuffer<CR>
 set wildignore+=*/tmp/*,*.so,*.o,*.a,*.obj,*.swp,*.zip,*.pyc,*.pyo,*.class,.DS_Store  " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 
