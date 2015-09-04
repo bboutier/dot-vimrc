@@ -103,9 +103,9 @@ sudo apt-get install vim-gtk               # Ubuntu
 ### Dependencies
 
 ```bash
-yaourt -S ack ctags                  # ArchLinux
-sudo apt-get install ack-grep ctags  # Ubuntu
-brew install ack ctags               # OS X
+yaourt -S ack ctags                         # ArchLinux
+sudo apt-get install ack-grep ctags ag      # Ubuntu
+brew install ack ctags                      # OS X
 ```
 
 For syntax check tools:
