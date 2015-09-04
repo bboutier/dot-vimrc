@@ -157,8 +157,9 @@ let NERDCompactSexyComs=1
 " ZenCoding
 let g:user_emmet_expandabbr_key='<C-j>'
 
-" powerline
-"let g:Powerline_symbols = 'fancy'
+" airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts=1
 
 " NeoComplCache
 let g:neocomplcache_enable_at_startup=1
@@ -190,6 +191,7 @@ let g:neocomplcache_omni_patterns.erlang = '[a-zA-Z]\|:'
 " let g:SuperTabDefultCompletionType='context'
 let g:SuperTabDefaultCompletionType = '<C-X><C-U>'
 let g:SuperTabRetainCompletionType=2
+" set guifont=Ubuntu\ Mono\ derivative\ Powerline:10
 
 " ctrlp
 set wildignore+=*/tmp/*,*.so,*.o,*.a,*.obj,*.swp,*.zip,*.pyc,*.pyo,*.class,.DS_Store  " MacOSX/Linux
